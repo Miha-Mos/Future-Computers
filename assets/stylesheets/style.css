@@ -1,0 +1,410 @@
+*,
+*:before,
+*:after{
+ -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	     text-decoration:none;
+}
+
+/*
+  ========================================
+  Clear CSS
+  ========================================
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, summary, time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ zoom: 1;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header,
+.part1,
+.company-logo,
+.part2,
+.part3,
+.part4,
+footer{
+	display: flex;
+}
+
+/*
+  ========================================
+  Container
+  ========================================
+*/
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	padding-right: 15px !important;
+	padding-left: 15px !important; 
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+header{
+	box-shadow: -15px -15px 20px 0px;
+}
+
+.header-wrapper{
+	padding: 15px 0px;
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	width: 50px;
+}
+
+.logo-caption{
+	font-size: 20px;
+	padding-left: 5px; 
+	color: #323232;
+}
+
+/*
+  ========================================
+  Part1
+  ========================================
+*/
+
+.part1-wrapper{
+	padding: 50px 0px; 
+}
+
+.part1-text-img,
+.part2-text-img{
+	display: flex;
+	align-items: center;
+}
+
+.part1-text{
+	padding-right: 50px;
+	width: 50%;
+}
+
+.part1-title,
+.part2-title{
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.part1-subtitle{
+	padding: 15px 0px;
+	font-size: 18px;
+	font-weight: 300;
+	opacity: 0.65;
+	margin-top: 10px;
+}
+
+.part1-img,
+.part2-img{
+	width: 50%;
+}
+
+.part1-img img{
+	width: 100%;
+	display: flex;
+}
+
+/*
+  ========================================
+  Company logo
+  ========================================
+*/
+
+.company-logo-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.IBM_logo{
+	content: url('../images/logo_brands/IBM_logo.svg');
+	width: 180px;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+}
+
+.Nvidia_logo{
+	content: url('../images/logo_brands/Nvidia_logo.svg');
+	width: 100px;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+}
+
+.Isara_logo{
+	content: url('../images/logo_brands/Isara_logo.svg');
+	width: 150px;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+}
+
+.Intel_logo{
+	content: url('../images/logo_brands/Intel_logo.svg');
+	width: 120px;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+}
+
+.Honeywell_logo{
+	content: url('../images/logo_brands/Honeywell_logo.svg');
+	width: 250px;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+}
+
+.IBM_logo:hover,
+.Nvidia_logo:hover,
+.Isara_logo:hover,
+.Intel_logo:hover,
+.Honeywell_logo:hover{
+	opacity: 1;
+
+}
+
+.IBM_logo:hover{
+	content: url('../images/logo_brands/IBM_logo_color.svg');
+	width: 180px;
+}
+
+.Nvidia_logo:hover{
+	content: url('../images/logo_brands/Nvidia_logo_color.svg');
+	width: 100px;
+}
+
+.Isara_logo:hover{
+	content: url('../images/logo_brands/Isara_logo_color.svg');
+	width: 150px;
+}
+
+.Intel_logo:hover{
+	content: url('../images/logo_brands/Intel_logo_color.svg');
+	width: 120px;
+}
+
+.Honeywell_logo:hover{
+	content: url('../images/logo_brands/Honeywell_logo_color.svg');
+	width: 250px;
+}
+
+/*
+  ========================================
+  Part2
+  ========================================
+*/
+
+.part2-wrapper{
+	padding: 70px 0px;
+}
+
+.part2-text{
+	margin-left: 50px;
+	width: 50%;
+}
+
+.part2-subtitle{
+	display: flex;
+	box-shadow: 0px 0px 20px #cccccc;
+    padding: 15px 15px;
+	font-size: 20px;
+	font-weight: 300;
+	border-radius: 20px;
+	margin: 10px 0px;
+}
+
+.part2-text-left{
+	margin: 30px 50px 30px 0px;
+	width: 50%;
+}
+
+.part2-img img{
+	width: 100%;
+	border-radius: 30px;
+}
+
+/*
+  ========================================
+  Part3
+  ========================================
+*/
+
+.part3{
+	background-color: #f4f7f9;
+}
+
+.part3-wrapper{
+	padding: 100px 0px;
+}
+
+.part3-text{
+	text-align: center;
+}	
+
+.part3-title{
+	font-size: 45px;
+}
+
+.part3-subtitle{
+	font-size: 24px;
+	font-weight: 300;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.part3-video{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.part3-video iframe{
+	box-shadow: 20px 20px 20px #999999;
+}
+
+/*
+  ========================================
+  Part4
+  ========================================
+*/
+
+.part4-wrapper{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.part4-title{
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.part4-carousel{
+	width: 800px !important;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.part4-carousel-text{
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	width: 670px;
+	margin: 0 auto;
+}
+
+.part4-carousel-text p{
+	padding-top: 20px;
+}
+
+.icon-next,
+.icon-prev{
+	top: 40%;
+	position: absolute;
+	vertical-align: top;
+}
+
+.icon-next{
+	margin-right: -70px;
+	right: 0;
+}
+
+.icon-prev{
+	margin-left: -70px;
+	left: 0;
+}
+
+.owl-carousel .owl-item img{
+	object-fit: contain;
+	object-position: center;
+	height: 300px;
+}
+
+
+/*
+  ========================================
+  Part5
+  ========================================
+*/
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer{
+	background-color: #111111;
+}
+
+.footer-wrapper{
+	padding: 45px 0px;
+}
+
+.footer-logo{
+	align-items: center;
+	display: flex
+}
+
+.footer-logo-img img{
+	width: 50px;
+}
+
+.footer-logo-caption{
+	font-size: 20px;
+	padding-left: 5px; 
+	color: white;
+}
+
+.icon-instagram{
+	padding: 0px 5px;
+	color: #414141;
+	font-size: 27px;
+	transition-duration: .3s;
+
+}
+
+.footer-social-icon{
+	padding: 20px 0px 15px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.copy p{
+	font-size: 14px;
+	color: #414141;
+}
+
+.icon-instagram:hover{
+	color: white;
+}
+
+.social-profile h4{
+	color: white;
+	padding-bottom: 10px;
+}
+
+.social-profile{
+	display: flex;
+	align-items: center;
+}
+
+.social-profile h4 span{
+	color: #4c4c4c;
+	font-size: 13px;
+}
